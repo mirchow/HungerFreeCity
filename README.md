@@ -1,11 +1,9 @@
-# HungerFreeCity
-Hunger Free City - It’s an App that will connect people in the community, local food banks and charities in order to end hunger in their city
+# Hunger Free City
 
-1. Mobile App Resources
-  https://azure.microsoft.com/en-us/documentation/articles/app-service-mobile-value-prop-preview/
+Hunger Free City provides easy communication channel for People to understand what needs Food Banks in their area have. Food Banks list top needed items, so that users, when they are shopping for donations items, can understand what the real needs really are.
 
-2. Services Documentation
-  https://azure.microsoft.com/en-us/documentation/services/mobile-services/
+This forked repo is an alternative implementation implemented using freely accessible software. 
+Node.js + Mongodb server, iOS Swift, Android for application
 
-3. MVC Documentation 
-  http://www.asp.net/mvc/overview/getting-started/introduction/getting-started
+For the original Xamarin .Net project, please go to  https://github.com/markradacz/HungerFreeCity
+
