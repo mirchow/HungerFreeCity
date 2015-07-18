@@ -1,9 +1,10 @@
 # Hunger Free City
+Connecting people to the needs of Community.
 
-Hunger Free City provides easy communication channel for People to understand what needs Food Banks in their area have. Food Banks list top needed items, so that users, when they are shopping for donations items, can understand what the real needs really are.
+Hunger Free City provides easy way to find out what the needs of your local community are. Food Banks list top needed items, so that users, when they are shopping for donations items, can understand what the real needs are.
 
-This forked repo is an alternative implementation implemented using freely accessible software. 
-Node.js + Mongodb server, iOS Swift, Android for application
+This forked repo is an alternative implementation implemented using freely accessible software using
+Node.js + Mongodb server, iOS Swift, Android.
 
-For the original Xamarin .Net project, please go to  https://github.com/markradacz/HungerFreeCity
+For the original Xamarin and .Net project, please go to  https://github.com/markradacz/HungerFreeCity
 
