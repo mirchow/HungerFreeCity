@@ -2,10 +2,14 @@
   "name": "hunger-free-city",
   "version": "0.0.1",
   "description": "Connects people in the community, local food banks and charities in order to end hunger in their city",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
+    "pretest": "jshint .",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.12.7"
   },
   "repository": {
     "type": "git",
@@ -34,9 +38,21 @@
     "gulp-sass": "^2.0.4",
     "node-libs-browser": "^0.5.2",
     "webpack": "^1.10.1",
-    "webpack-stream": "^2.0.0"
+    "webpack-stream": "^2.0.0",
+    "jshint": "^2.5.6"
   },
   "dependencies": {
-    "express": "^4.13.1"
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "errorhandler": "^1.1.1",
+    "express": "^4.13.1",
+    "loopback": "^2.14.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-connector-mongodb": "^1.11.3",
+    "loopback-datasource-juggler": "^2.19.0",
+    "serve-favicon": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
   }
 }

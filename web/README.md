@@ -10,3 +10,6 @@ Web server for Administering and serving data for hunger free city application.
         $ gulp
 
    Gulp automatically opens Hunger Free City in a web browser, and reloads when it detects changes to css, js, and html.
+
+   You can view the running project at https://hungerfreecity.herokuapp.com/
+   
