@@ -1,13 +1,25 @@
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.1'
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.4'
 use_frameworks!
 
-pod 'GoogleMaps'
-pod 'GoogleAnalytics', '~>3.12.0'
-pod 'GoogleSignIn', '~> 2.1'
+def all_pods
+    pod 'GoogleMaps'
+    pod 'Google/Analytics', '~>1.0.0'
+    pod 'GoogleSignIn', '~> 2.1'
+    
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    
+    pod 'DZNEmptyDataSet'
+    
+    pod 'Alamofire', '~> 1.3'
+    pod 'SwiftyJSON', '~> 2.2'
+end
 
-pod 'FBSDKCoreKit'
-pod 'FBSDKLoginKit'
+target 'Hunger Free City' do
+    all_pods
+end
 
-pod 'Alamofire', '~> 1.2'
-pod 'SwiftyJSON', '>= 2.2'
+target 'Hunger Free CityTests' do
+    all_pods
+end

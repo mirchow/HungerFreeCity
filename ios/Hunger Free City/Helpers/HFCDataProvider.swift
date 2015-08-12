@@ -33,7 +33,7 @@ public class HFCDataProvider {
     
     // Get nearby Distribution Centers
     func getDistributionCentersNearby() {
-        Alamofire.request(.GET, Constants.HFCService.HFCServiceDistCentersUrl, parameters: ["foo": "bar"])
+        Alamofire.request(.GET, Constants.HFCService.HFCServerUrl, parameters: ["foo": "bar"])
             .responseJSON { (request, response, JSON, error) in
                 println(request)
                 println(response)

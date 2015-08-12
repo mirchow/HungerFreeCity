@@ -8,7 +8,7 @@
         <!--Distribution Centers-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="DistCentersViewController" customModule="Hunger_Free_City" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="CentersViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -233,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Dist Map View Controller-->
+        <!--Centers Map View Controller-->
         <scene sceneID="GOL-E0-Pdp">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="mn8-zu-Lww" customClass="DistMapViewController" customModule="Hunger_Free_City" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="mn8-zu-Lww" customClass="CentersMapViewController" customModule="Hunger_Free_City" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gB3-Nk-Wdo"/>
                         <viewControllerLayoutGuide type="bottom" id="nOQ-GF-kbO"/>
@@ -254,32 +254,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guv-2T-vLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2208" y="-118.5"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="rih-rb-Hc2">
-            <objects>
-                <tableViewController id="5tk-Ay-IoM" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="lQO-0A-ajc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XJZ-vf-PlR">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XJZ-vf-PlR" id="X6o-n3-ceY">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="5tk-Ay-IoM" id="wTo-jl-RIS"/>
-                            <outlet property="delegate" destination="5tk-Ay-IoM" id="nCb-d0-YVd"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="duO-Xm-fvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2176" y="-766"/>
         </scene>
         <!--Distribution Centers-->
         <scene sceneID="yCM-NZ-3cz">
@@ -319,10 +293,10 @@
             </objects>
             <point key="canvasLocation" x="730" y="-736"/>
         </scene>
-        <!--Dist List Table View Controller-->
+        <!--Centers List Table View Controller-->
         <scene sceneID="wMe-Ew-R9P">
             <objects>
-                <tableViewController id="aKh-LF-pj3" customClass="DistListTableViewController" customModule="Hunger_Free_City" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="aKh-LF-pj3" customClass="CentersListTableViewController" customModule="Hunger_Free_City" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Q4S-ge-ZDW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="443"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

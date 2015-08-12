@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		320FB0A7B75EBD86C7BDDFB3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69F6A3C85874D92C6099316 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		EB095CED1B3D8A0B003EF90B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CE51B3D8A0B003EF90B /* Constants.swift */; };
-		EB095CEE1B3D8A0B003EF90B /* DistCentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CE61B3D8A0B003EF90B /* DistCentersViewController.swift */; };
-		EB095CEF1B3D8A0B003EF90B /* DistListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CE71B3D8A0B003EF90B /* DistListTableViewController.swift */; };
-		EB095CF01B3D8A0B003EF90B /* DistMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CE81B3D8A0B003EF90B /* DistMapViewController.swift */; };
-		EB095CF11B3D8A0B003EF90B /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CE91B3D8A0B003EF90B /* GoogleDataProvider.swift */; };
-		EB095CF21B3D8A0B003EF90B /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CEA1B3D8A0B003EF90B /* GooglePlace.swift */; };
-		EB095CF31B3D8A0B003EF90B /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CEB1B3D8A0B003EF90B /* InventoryViewController.swift */; };
-		EB095CF41B3D8A0B003EF90B /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB095CEC1B3D8A0B003EF90B /* PlaceMarker.swift */; };
-		EB095CF81B3D8CDD003EF90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB095CF71B3D8CDD003EF90B /* Main.storyboard */; };
-		EB14B5731B3DB5FC0021C3F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14B5721B3DB5FC0021C3F5 /* LoginViewController.swift */; };
-		EB2CB86F1B3D88810083259E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2CB86E1B3D88810083259E /* AppDelegate.swift */; };
+		6FC6DD81D8DD16436BFE1F7B /* Pods_Hunger_Free_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B616B2577DE9AD0365F417 /* Pods_Hunger_Free_City.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8E9EEE998C63A1DD4C6D2241 /* Pods_Hunger_Free_CityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3102C9A0FEBBDAB344F312A /* Pods_Hunger_Free_CityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EB2CB8761B3D88810083259E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2CB8751B3D88810083259E /* Images.xcassets */; };
-		EB2CB8791B3D88810083259E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB2CB8771B3D88810083259E /* LaunchScreen.xib */; };
 		EB2CB8851B3D88810083259E /* Hunger_Free_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2CB8841B3D88810083259E /* Hunger_Free_CityTests.swift */; };
-		EBA66DA31B430A0D007F2FC7 /* HFCDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA66DA21B430A0D007F2FC7 /* HFCDataProvider.swift */; };
-		EBA66DA71B432494007F2FC7 /* HFCDistributors.json in Resources */ = {isa = PBXBuildFile; fileRef = EBA66DA61B432494007F2FC7 /* HFCDistributors.json */; };
 		EBA66DA91B4343E4007F2FC7 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA66DA81B4343E4007F2FC7 /* libGoogleAnalytics.a */; };
 		EBA66DAB1B4343FE007F2FC7 /* libSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA66DAA1B4343FE007F2FC7 /* libSignIn.a */; };
-		EBBD6F1C1B4B721A0041602D /* DistListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBD6F1B1B4B721A0041602D /* DistListTableViewCell.swift */; };
+		EBAFC9A91B5C719400E2504F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9A31B5C719400E2504F /* LoginViewController.swift */; };
+		EBAFC9AA1B5C719400E2504F /* NeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9A41B5C719400E2504F /* NeedsViewController.swift */; };
+		EBAFC9AC1B5C71CB00E2504F /* DistListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9AB1B5C71CB00E2504F /* DistListTableViewCell.swift */; };
+		EBAFC9B21B5C72D000E2504F /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9B01B5C72D000E2504F /* GooglePlace.swift */; };
+		EBAFC9B31B5C72D000E2504F /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9B11B5C72D000E2504F /* PlaceMarker.swift */; };
+		EBAFC9B71B5C72E800E2504F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9B41B5C72E800E2504F /* Constants.swift */; };
+		EBAFC9B81B5C72E800E2504F /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9B51B5C72E800E2504F /* GoogleDataProvider.swift */; };
+		EBAFC9BB1B5C72FB00E2504F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAFC9BA1B5C72FB00E2504F /* Main.storyboard */; };
+		EBAFC9C01B5C73D300E2504F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9BF1B5C73D300E2504F /* AppDelegate.swift */; };
+		EBAFC9C21B5C741200E2504F /* HFCDistributors.json in Resources */ = {isa = PBXBuildFile; fileRef = EBAFC9C11B5C741200E2504F /* HFCDistributors.json */; };
+		EBAFC9C51B5C74EF00E2504F /* HFCDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9C41B5C74EF00E2504F /* HFCDataProvider.swift */; };
+		EBAFC9C91B5C9C4F00E2504F /* CentersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9C81B5C9C4F00E2504F /* CentersViewController.swift */; };
+		EBAFC9CC1B5C9C9700E2504F /* CentersListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9CA1B5C9C9700E2504F /* CentersListTableViewController.swift */; };
+		EBAFC9CD1B5C9C9700E2504F /* CentersMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9CB1B5C9C9700E2504F /* CentersMapViewController.swift */; };
 		EBE2E7A71B41BC2100DF7486 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EBE2E7A61B41BC2100DF7486 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -41,34 +41,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0630644A1EDFFE44018CD569 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A69F6A3C85874D92C6099316 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5DCC679F317D92CDC06CE87 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		EB095CE21B3D89DA003EF90B /* Hunger Free City-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hunger Free City-Bridging-Header.h"; sourceTree = "<group>"; };
-		EB095CE51B3D8A0B003EF90B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EB095CE61B3D8A0B003EF90B /* DistCentersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistCentersViewController.swift; sourceTree = "<group>"; };
-		EB095CE71B3D8A0B003EF90B /* DistListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistListTableViewController.swift; sourceTree = "<group>"; };
-		EB095CE81B3D8A0B003EF90B /* DistMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistMapViewController.swift; sourceTree = "<group>"; };
-		EB095CE91B3D8A0B003EF90B /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
-		EB095CEA1B3D8A0B003EF90B /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
-		EB095CEB1B3D8A0B003EF90B /* InventoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
-		EB095CEC1B3D8A0B003EF90B /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
-		EB095CF71B3D8CDD003EF90B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		EB14B5721B3DB5FC0021C3F5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2EA5E783CA581A6D41C9C956 /* Pods-Hunger Free CityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hunger Free CityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hunger Free CityTests/Pods-Hunger Free CityTests.release.xcconfig"; sourceTree = "<group>"; };
+		68B616B2577DE9AD0365F417 /* Pods_Hunger_Free_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hunger_Free_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3102C9A0FEBBDAB344F312A /* Pods_Hunger_Free_CityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hunger_Free_CityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA87F15D10FD50377DC6937E /* Pods-Hunger Free City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hunger Free City.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hunger Free City/Pods-Hunger Free City.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2CB8691B3D88810083259E /* Hunger Free City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hunger Free City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2CB86D1B3D88810083259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB2CB86E1B3D88810083259E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB2CB8751B3D88810083259E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EB2CB8781B3D88810083259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB2CB87E1B3D88810083259E /* Hunger Free CityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hunger Free CityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2CB8831B3D88810083259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2CB8841B3D88810083259E /* Hunger_Free_CityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunger_Free_CityTests.swift; sourceTree = "<group>"; };
-		EBA66DA21B430A0D007F2FC7 /* HFCDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCDataProvider.swift; sourceTree = "<group>"; };
-		EBA66DA61B432494007F2FC7 /* HFCDistributors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HFCDistributors.json; sourceTree = "<group>"; };
 		EBA66DA81B4343E4007F2FC7 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Pods/GoogleAnalytics/Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		EBA66DAA1B4343FE007F2FC7 /* libSignIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSignIn.a; path = ../Pods/GoogleSignIn/Libraries/libSignIn.a; sourceTree = "<group>"; };
-		EBBD6F1B1B4B721A0041602D /* DistListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistListTableViewCell.swift; sourceTree = "<group>"; };
+		EBAFC9A31B5C719400E2504F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
+		EBAFC9A41B5C719400E2504F /* NeedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NeedsViewController.swift; path = Controllers/NeedsViewController.swift; sourceTree = "<group>"; };
+		EBAFC9AB1B5C71CB00E2504F /* DistListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DistListTableViewCell.swift; path = Views/DistListTableViewCell.swift; sourceTree = "<group>"; };
+		EBAFC9B01B5C72D000E2504F /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GooglePlace.swift; path = Models/GooglePlace.swift; sourceTree = "<group>"; };
+		EBAFC9B11B5C72D000E2504F /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceMarker.swift; path = Models/PlaceMarker.swift; sourceTree = "<group>"; };
+		EBAFC9B41B5C72E800E2504F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helpers/Constants.swift; sourceTree = "<group>"; };
+		EBAFC9B51B5C72E800E2504F /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleDataProvider.swift; path = Helpers/GoogleDataProvider.swift; sourceTree = "<group>"; };
+		EBAFC9BA1B5C72FB00E2504F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Views/Main.storyboard; sourceTree = "<group>"; };
+		EBAFC9BF1B5C73D300E2504F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		EBAFC9C11B5C741200E2504F /* HFCDistributors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = HFCDistributors.json; path = Models/HFCDistributors.json; sourceTree = "<group>"; };
+		EBAFC9C31B5C74D800E2504F /* Hunger Free City-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hunger Free City-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBAFC9C41B5C74EF00E2504F /* HFCDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HFCDataProvider.swift; path = Helpers/HFCDataProvider.swift; sourceTree = "<group>"; };
+		EBAFC9C81B5C9C4F00E2504F /* CentersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CentersViewController.swift; path = Controllers/CentersViewController.swift; sourceTree = "<group>"; };
+		EBAFC9CA1B5C9C9700E2504F /* CentersListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CentersListTableViewController.swift; path = Controllers/CentersListTableViewController.swift; sourceTree = "<group>"; };
+		EBAFC9CB1B5C9C9700E2504F /* CentersMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CentersMapViewController.swift; path = Controllers/CentersMapViewController.swift; sourceTree = "<group>"; };
 		EBE2E7A61B41BC2100DF7486 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2AFE807E8E98B0C993C50CA /* Pods-Hunger Free CityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hunger Free CityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hunger Free CityTests/Pods-Hunger Free CityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBD37A25D72F68880BEB2A8 /* Pods-Hunger Free City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hunger Free City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hunger Free City/Pods-Hunger Free City.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320FB0A7B75EBD86C7BDDFB3 /* Pods.framework in Frameworks */,
 				EBA66DA91B4343E4007F2FC7 /* libGoogleAnalytics.a in Frameworks */,
 				EBA66DAB1B4343FE007F2FC7 /* libSignIn.a in Frameworks */,
+				6FC6DD81D8DD16436BFE1F7B /* Pods_Hunger_Free_City.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9EEE998C63A1DD4C6D2241 /* Pods_Hunger_Free_CityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +98,10 @@
 		1DE185E1C59D6EEFC4E70BF0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E5DCC679F317D92CDC06CE87 /* Pods.debug.xcconfig */,
-				0630644A1EDFFE44018CD569 /* Pods.release.xcconfig */,
+				BA87F15D10FD50377DC6937E /* Pods-Hunger Free City.debug.xcconfig */,
+				FDBD37A25D72F68880BEB2A8 /* Pods-Hunger Free City.release.xcconfig */,
+				F2AFE807E8E98B0C993C50CA /* Pods-Hunger Free CityTests.debug.xcconfig */,
+				2EA5E783CA581A6D41C9C956 /* Pods-Hunger Free CityTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,26 +109,17 @@
 		4E2CC3855592DBBE91C9AE81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A69F6A3C85874D92C6099316 /* Pods.framework */,
+				68B616B2577DE9AD0365F417 /* Pods_Hunger_Free_City.framework */,
+				B3102C9A0FEBBDAB344F312A /* Pods_Hunger_Free_CityTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EB095CDF1B3D898A003EF90B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EB095CE91B3D8A0B003EF90B /* GoogleDataProvider.swift */,
-				EB095CEA1B3D8A0B003EF90B /* GooglePlace.swift */,
-				EB095CEC1B3D8A0B003EF90B /* PlaceMarker.swift */,
-				EBA66DA21B430A0D007F2FC7 /* HFCDataProvider.swift */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		EB095CE01B3D8992003EF90B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EBBD6F1B1B4B721A0041602D /* DistListTableViewCell.swift */,
+				EBAFC9BA1B5C72FB00E2504F /* Main.storyboard */,
+				EBAFC9AB1B5C71CB00E2504F /* DistListTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -131,11 +127,11 @@
 		EB095CE11B3D8999003EF90B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EB095CE61B3D8A0B003EF90B /* DistCentersViewController.swift */,
-				EB095CE71B3D8A0B003EF90B /* DistListTableViewController.swift */,
-				EB095CE81B3D8A0B003EF90B /* DistMapViewController.swift */,
-				EB095CEB1B3D8A0B003EF90B /* InventoryViewController.swift */,
-				EB14B5721B3DB5FC0021C3F5 /* LoginViewController.swift */,
+				EBAFC9C81B5C9C4F00E2504F /* CentersViewController.swift */,
+				EBAFC9CA1B5C9C9700E2504F /* CentersListTableViewController.swift */,
+				EBAFC9CB1B5C9C9700E2504F /* CentersMapViewController.swift */,
+				EBAFC9A31B5C719400E2504F /* LoginViewController.swift */,
+				EBAFC9A41B5C719400E2504F /* NeedsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -163,17 +159,13 @@
 		EB2CB86B1B3D88810083259E /* Hunger Free City */ = {
 			isa = PBXGroup;
 			children = (
-				EBE2E7A61B41BC2100DF7486 /* GoogleService-Info.plist */,
-				EB2CB86E1B3D88810083259E /* AppDelegate.swift */,
-				EB095CE51B3D8A0B003EF90B /* Constants.swift */,
-				EB095CDF1B3D898A003EF90B /* Model */,
+				EBAFC9BE1B5C73C000E2504F /* Application */,
+				EBAFC9AD1B5C720D00E2504F /* Helpers */,
+				EBAFC99E1B5C70EA00E2504F /* Models */,
 				EB095CE01B3D8992003EF90B /* Views */,
 				EB095CE11B3D8999003EF90B /* Controllers */,
-				EB095CF71B3D8CDD003EF90B /* Main.storyboard */,
 				EB2CB8751B3D88810083259E /* Images.xcassets */,
-				EB2CB8771B3D88810083259E /* LaunchScreen.xib */,
 				EB2CB86C1B3D88810083259E /* Supporting Files */,
-				EB095CE21B3D89DA003EF90B /* Hunger Free City-Bridging-Header.h */,
 			);
 			path = "Hunger Free City";
 			sourceTree = "<group>";
@@ -181,10 +173,11 @@
 		EB2CB86C1B3D88810083259E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBAFC9C31B5C74D800E2504F /* Hunger Free City-Bridging-Header.h */,
+				EBE2E7A61B41BC2100DF7486 /* GoogleService-Info.plist */,
 				EBA66DAA1B4343FE007F2FC7 /* libSignIn.a */,
 				EBA66DA81B4343E4007F2FC7 /* libGoogleAnalytics.a */,
 				EB2CB86D1B3D88810083259E /* Info.plist */,
-				EBA66DA61B432494007F2FC7 /* HFCDistributors.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,6 +197,34 @@
 				EB2CB8831B3D88810083259E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBAFC99E1B5C70EA00E2504F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFC9C11B5C741200E2504F /* HFCDistributors.json */,
+				EBAFC9B01B5C72D000E2504F /* GooglePlace.swift */,
+				EBAFC9B11B5C72D000E2504F /* PlaceMarker.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EBAFC9AD1B5C720D00E2504F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFC9B41B5C72E800E2504F /* Constants.swift */,
+				EBAFC9C41B5C74EF00E2504F /* HFCDataProvider.swift */,
+				EBAFC9B51B5C72E800E2504F /* GoogleDataProvider.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		EBAFC9BE1B5C73C000E2504F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFC9BF1B5C73D300E2504F /* AppDelegate.swift */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB2CB88B1B3D88810083259E /* Build configuration list for PBXNativeTarget "Hunger Free CityTests" */;
 			buildPhases = (
+				21ECEC79CF87EDA5CAEC0BA2 /* Check Pods Manifest.lock */,
 				EB2CB87A1B3D88810083259E /* Sources */,
 				EB2CB87B1B3D88810083259E /* Frameworks */,
 				EB2CB87C1B3D88810083259E /* Resources */,
+				B5E572CC0BE1AD5EC6E5D971 /* Embed Pods Frameworks */,
+				51389C9215C31A846C537103 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,10 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA66DA71B432494007F2FC7 /* HFCDistributors.json in Resources */,
-				EB095CF81B3D8CDD003EF90B /* Main.storyboard in Resources */,
+				EBAFC9C21B5C741200E2504F /* HFCDistributors.json in Resources */,
+				EBAFC9BB1B5C72FB00E2504F /* Main.storyboard in Resources */,
 				EBE2E7A71B41BC2100DF7486 /* GoogleService-Info.plist in Resources */,
-				EB2CB8791B3D88810083259E /* LaunchScreen.xib in Resources */,
 				EB2CB8761B3D88810083259E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +347,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		21ECEC79CF87EDA5CAEC0BA2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51389C9215C31A846C537103 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hunger Free CityTests/Pods-Hunger Free CityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7E9E3B5CE5D71F614C7AE76A /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,7 +389,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hunger Free City/Pods-Hunger Free City-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		908A23A00BCF3EDCED68D0AE /* Copy Pods Resources */ = {
@@ -351,7 +404,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hunger Free City/Pods-Hunger Free City-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E572CC0BE1AD5EC6E5D971 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hunger Free CityTests/Pods-Hunger Free CityTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -361,18 +429,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB095CF31B3D8A0B003EF90B /* InventoryViewController.swift in Sources */,
-				EB095CF11B3D8A0B003EF90B /* GoogleDataProvider.swift in Sources */,
-				EB095CEE1B3D8A0B003EF90B /* DistCentersViewController.swift in Sources */,
-				EB2CB86F1B3D88810083259E /* AppDelegate.swift in Sources */,
-				EB095CF41B3D8A0B003EF90B /* PlaceMarker.swift in Sources */,
-				EBBD6F1C1B4B721A0041602D /* DistListTableViewCell.swift in Sources */,
-				EB095CF01B3D8A0B003EF90B /* DistMapViewController.swift in Sources */,
-				EB095CEF1B3D8A0B003EF90B /* DistListTableViewController.swift in Sources */,
-				EB095CF21B3D8A0B003EF90B /* GooglePlace.swift in Sources */,
-				EBA66DA31B430A0D007F2FC7 /* HFCDataProvider.swift in Sources */,
-				EB095CED1B3D8A0B003EF90B /* Constants.swift in Sources */,
-				EB14B5731B3DB5FC0021C3F5 /* LoginViewController.swift in Sources */,
+				EBAFC9C01B5C73D300E2504F /* AppDelegate.swift in Sources */,
+				EBAFC9AC1B5C71CB00E2504F /* DistListTableViewCell.swift in Sources */,
+				EBAFC9A91B5C719400E2504F /* LoginViewController.swift in Sources */,
+				EBAFC9B71B5C72E800E2504F /* Constants.swift in Sources */,
+				EBAFC9C51B5C74EF00E2504F /* HFCDataProvider.swift in Sources */,
+				EBAFC9B81B5C72E800E2504F /* GoogleDataProvider.swift in Sources */,
+				EBAFC9CD1B5C9C9700E2504F /* CentersMapViewController.swift in Sources */,
+				EBAFC9AA1B5C719400E2504F /* NeedsViewController.swift in Sources */,
+				EBAFC9B31B5C72D000E2504F /* PlaceMarker.swift in Sources */,
+				EBAFC9C91B5C9C4F00E2504F /* CentersViewController.swift in Sources */,
+				EBAFC9B21B5C72D000E2504F /* GooglePlace.swift in Sources */,
+				EBAFC9CC1B5C9C9700E2504F /* CentersListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,17 +461,6 @@
 			targetProxy = EB2CB87F1B3D88810083259E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EB2CB8771B3D88810083259E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB2CB8781B3D88810083259E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EB2CB8861B3D88810083259E /* Debug */ = {
@@ -491,12 +548,13 @@
 		};
 		EB2CB8891B3D88810083259E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5DCC679F317D92CDC06CE87 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = BA87F15D10FD50377DC6937E /* Pods-Hunger Free City.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hunger Free City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,12 +569,13 @@
 		};
 		EB2CB88A1B3D88810083259E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0630644A1EDFFE44018CD569 /* Pods.release.xcconfig */;
+			baseConfigurationReference = FDBD37A25D72F68880BEB2A8 /* Pods-Hunger Free City.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Hunger Free City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,6 +589,7 @@
 		};
 		EB2CB88C1B3D88810083259E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AFE807E8E98B0C993C50CA /* Pods-Hunger Free CityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -549,6 +609,7 @@
 		};
 		EB2CB88D1B3D88810083259E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA5E783CA581A6D41C9C956 /* Pods-Hunger Free CityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

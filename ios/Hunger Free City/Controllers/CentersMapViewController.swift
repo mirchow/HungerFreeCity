@@ -9,7 +9,7 @@
 import UIKit
 import GoogleMaps
 
-class DistMapViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate {
+class CentersMapViewController: CentersViewController, CLLocationManagerDelegate, GMSMapViewDelegate {
 
     let locationManager = CLLocationManager()
     @IBOutlet var mapView: GMSMapView!

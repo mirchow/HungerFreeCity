@@ -15,6 +15,6 @@ struct Constants {
         static let TitleDict: [NSObject : AnyObject] = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
     struct HFCService {
-        static let HFCServiceDistCentersUrl = "http://httpbin.org/get"
+        static let HFCServerUrl = "https://hungerfreecity.herokuapp.com/api/centers"
     }
 }

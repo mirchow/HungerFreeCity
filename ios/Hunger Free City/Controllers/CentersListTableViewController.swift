@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DistListTableViewController: UITableViewController {
+class CentersListTableViewController: CentersViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

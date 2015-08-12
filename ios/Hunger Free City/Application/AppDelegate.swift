@@ -35,8 +35,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // google analytics
         // Configure tracker from GoogleService-Info.plist
-//        var configureError:NSError?
-//        GGLContext.sharedInstance().configureWithError(&configureError)
+        var configureError:NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        // Optional: configure GAI options.
+        var gai = GAI.sharedInstance()
+        gai.trackUncaughtExceptions = true  // report uncaught exceptions
+        gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
         
         // facebook
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)

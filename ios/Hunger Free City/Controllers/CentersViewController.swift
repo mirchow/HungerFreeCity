@@ -9,7 +9,7 @@
 import UIKit
 
 
-class DistCentersViewController: UIViewController {
+class CentersViewController: UITableViewController {
 //    class CitiesViewController: UITableViewController, CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate {
 
 
