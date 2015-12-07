@@ -31,12 +31,12 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     // MARK: Facebook Delegate Methods
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
-        println("User Logged In")
+        print("User Logged In")
         
         if error != nil {
-            println("process error")
+            print("process error")
         } else if result.isCancelled {
-            println("handle cancellations")
+            print("handle cancellations")
         } else {
             // If you ask for multiple permissions at once, you
             // should check if specific permissions missing
@@ -45,7 +45,7 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        println("User logged Out")
+        print("User logged Out")
     }
     
     @IBOutlet weak var userDataLabel: UILabel!
@@ -56,13 +56,13 @@ class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
         let graphRequest: FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)
         graphRequest.startWithCompletionHandler { (connection, result, error) -> Void in
             if error != nil {
-                println("Error: \(error)")
+                print("Error: \(error)")
             } else {
-                println("fetched user: \(result)")
+                print("fetched user: \(result)")
                 let userName: NSString = result.valueForKey("name") as! NSString
-                println("User Name is: \(userName)")
+                print("User Name is: \(userName)")
                 let userEmail: NSString = result.valueForKey("email") as! NSString
-                println("User Email is: \(userEmail)")
+                print("User Email is: \(userEmail)")
                 dispatch_async(dispatch_get_main_queue(), {
                     self.userDataLabel.text = "\(result)"
                 })

@@ -26,7 +26,7 @@ public class HFCDataProvider {
     
     // debug println with identifying prefix
     private func log(whatToLog: AnyObject) {
-        debugPrintln("HFCRequest: \(whatToLog)")
+        debugPrint("HFCRequest: \(whatToLog)")
     }
     
     // synchronizes access to self
@@ -34,13 +34,12 @@ public class HFCDataProvider {
     // Get nearby Distribution Centers
     func getDistributionCentersNearby() {
         Alamofire.request(.GET, Constants.HFCService.HFCServerUrl, parameters: ["foo": "bar"])
-            .responseJSON { (request, response, JSON, error) in
-                println(request)
-                println(response)
-                println(JSON)
-                println(error)
-                
-        }
+            .responseJSON(completionHandler: { (request, response, JSON) -> Void in
+                print(request)
+                print(response)
+                print(JSON)
+  
+            })
     }
     
 //    class func getDistributorsDataFromFile(success: ((data: NSData) -> Void)) {

@@ -15,15 +15,15 @@ class CentersMapViewController: CentersViewController, CLLocationManagerDelegate
     @IBOutlet var mapView: GMSMapView!
     let dataProvider = GoogleDataProvider()
     
-    //var placesClient: GMSPlacesClient?
+    var placesClient: GMSPlacesClient?
     
     var searchedTypes = ["food+bank+pantry"]
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("entered DistMapViewController")
-        //placesClient = GMSPlacesClient()
+        print("entered CentersMapViewController")
+        placesClient = GMSPlacesClient()
         
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
@@ -47,6 +47,7 @@ class CentersMapViewController: CentersViewController, CLLocationManagerDelegate
     */
     
     // MARK: - Map functions
+
     func locationManager(manager: CLLocationManager!, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
         if status == .AuthorizedWhenInUse {
             locationManager.startUpdatingLocation()
@@ -55,8 +56,8 @@ class CentersMapViewController: CentersViewController, CLLocationManagerDelegate
         }
     }
     
-    func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-        if let location = locations.first as? CLLocation {
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.first {
             mapView.camera = GMSCameraPosition(target: location.coordinate, zoom: 12, bearing: 0, viewingAngle: 0)
             locationManager.stopUpdatingLocation()
             fetchNearbyPlaces(location.coordinate)

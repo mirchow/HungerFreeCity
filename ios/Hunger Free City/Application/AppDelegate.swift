@@ -38,9 +38,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var configureError:NSError?
         GGLContext.sharedInstance().configureWithError(&configureError)
         // Optional: configure GAI options.
-        var gai = GAI.sharedInstance()
+        let gai = GAI.sharedInstance()
         gai.trackUncaughtExceptions = true  // report uncaught exceptions
-        gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
+       // gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
         
         // facebook
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
@@ -69,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        var shouldOpenUrl = FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
+        let shouldOpenUrl = FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
 //        if !shouldOpenUrl {
 //            shouldOpenUrl = GIDSignIn.sharedInstance().handleURL(url, sourceApplication: sourceApplication, annotation: annotation)
 //        }

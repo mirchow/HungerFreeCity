@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FC6DD81D8DD16436BFE1F7B /* Pods_Hunger_Free_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B616B2577DE9AD0365F417 /* Pods_Hunger_Free_City.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		8E9EEE998C63A1DD4C6D2241 /* Pods_Hunger_Free_CityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3102C9A0FEBBDAB344F312A /* Pods_Hunger_Free_CityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6FC6DD81D8DD16436BFE1F7B /* Pods_Hunger_Free_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B616B2577DE9AD0365F417 /* Pods_Hunger_Free_City.framework */; };
+		8E9EEE998C63A1DD4C6D2241 /* Pods_Hunger_Free_CityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3102C9A0FEBBDAB344F312A /* Pods_Hunger_Free_CityTests.framework */; };
 		EB2CB8761B3D88810083259E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2CB8751B3D88810083259E /* Images.xcassets */; };
 		EB2CB8851B3D88810083259E /* Hunger_Free_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2CB8841B3D88810083259E /* Hunger_Free_CityTests.swift */; };
+		EB8E361B1B7AFAA600809427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8E361A1B7AFAA600809427 /* LaunchScreen.xib */; };
 		EBA66DA91B4343E4007F2FC7 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA66DA81B4343E4007F2FC7 /* libGoogleAnalytics.a */; };
 		EBA66DAB1B4343FE007F2FC7 /* libSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBA66DAA1B4343FE007F2FC7 /* libSignIn.a */; };
 		EBAFC9A91B5C719400E2504F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFC9A31B5C719400E2504F /* LoginViewController.swift */; };
@@ -51,6 +52,7 @@
 		EB2CB87E1B3D88810083259E /* Hunger Free CityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hunger Free CityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2CB8831B3D88810083259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2CB8841B3D88810083259E /* Hunger_Free_CityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunger_Free_CityTests.swift; sourceTree = "<group>"; };
+		EB8E361A1B7AFAA600809427 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		EBA66DA81B4343E4007F2FC7 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Pods/GoogleAnalytics/Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
 		EBA66DAA1B4343FE007F2FC7 /* libSignIn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSignIn.a; path = ../Pods/GoogleSignIn/Libraries/libSignIn.a; sourceTree = "<group>"; };
 		EBAFC9A31B5C719400E2504F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		EB095CE01B3D8992003EF90B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EB8E361A1B7AFAA600809427 /* LaunchScreen.xib */,
 				EBAFC9BA1B5C72FB00E2504F /* Main.storyboard */,
 				EBAFC9AB1B5C71CB00E2504F /* DistListTableViewCell.swift */,
 			);
@@ -315,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8E361B1B7AFAA600809427 /* LaunchScreen.xib in Resources */,
 				EBAFC9C21B5C741200E2504F /* HFCDistributors.json in Resources */,
 				EBAFC9BB1B5C72FB00E2504F /* Main.storyboard in Resources */,
 				EBE2E7A71B41BC2100DF7486 /* GoogleService-Info.plist in Resources */,
