@@ -1,85 +1,79 @@
 PODS:
-  - Alamofire (3.1.0)
-  - Bolts (1.4.0):
-    - Bolts/AppLinks (= 1.4.0)
-    - Bolts/Tasks (= 1.4.0)
-  - Bolts/AppLinks (1.4.0):
+  - Bolts (1.5.0):
+    - Bolts/AppLinks (= 1.5.0)
+    - Bolts/Tasks (= 1.5.0)
+  - Bolts/AppLinks (1.5.0):
     - Bolts/Tasks
-  - Bolts/Tasks (1.4.0)
+  - Bolts/Tasks (1.5.0)
   - DZNEmptyDataSet (1.7.2)
-  - FBSDKCoreKit (4.7.0):
+  - FBSDKCoreKit (4.8.0):
     - Bolts (~> 1.1)
-    - FBSDKCoreKit/arc (= 4.7.0)
-    - FBSDKCoreKit/no-arc (= 4.7.0)
-  - FBSDKCoreKit/arc (4.7.0):
+    - FBSDKCoreKit/arc (= 4.8.0)
+    - FBSDKCoreKit/no-arc (= 4.8.0)
+  - FBSDKCoreKit/arc (4.8.0):
     - Bolts (~> 1.1)
-  - FBSDKCoreKit/no-arc (4.7.0):
+  - FBSDKCoreKit/no-arc (4.8.0):
     - Bolts (~> 1.1)
     - FBSDKCoreKit/arc
-  - FBSDKLoginKit (4.7.0.1):
+  - FBSDKLoginKit (4.8.0):
     - FBSDKCoreKit
-  - Firebase (2.4.2)
+  - Firebase (2.4.3)
   - GeoFire (1.1.2):
     - Firebase (~> 2.2)
-  - Google/Analytics (1.1.1):
+  - Google/Analytics (1.2.1):
     - Google/Core
     - GoogleAnalytics (~> 3.12)
-  - Google/Core (1.1.1):
+  - Google/Core (1.2.1):
     - GoogleInterchangeUtilities (~> 1.0)
     - GoogleNetworkingUtilities (~> 1.0)
     - GoogleSymbolUtilities (~> 1.0)
     - GoogleUtilities (~> 1.1)
-  - GoogleAnalytics (3.13.0)
+  - GoogleAnalytics (3.14.0)
   - GoogleAppUtilities (1.0.0):
     - GoogleSymbolUtilities (~> 1.0)
   - GoogleAuthUtilities (1.0.1):
     - GoogleNetworkingUtilities (~> 1.0)
     - GoogleSymbolUtilities (~> 1.0)
-  - GoogleInterchangeUtilities (1.0.0):
+  - GoogleInterchangeUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0)
-  - GoogleMaps (1.10.4)
+  - GoogleMaps (1.11.0)
   - GoogleNetworkingUtilities (1.0.0):
     - GoogleSymbolUtilities (~> 1.0)
-  - GoogleSignIn (2.3.2):
+  - GoogleSignIn (2.4.0):
     - GoogleAppUtilities (~> 1.0)
     - GoogleAuthUtilities (~> 1.0)
     - GoogleNetworkingUtilities (~> 1.0)
     - GoogleUtilities (~> 1.0)
-  - GoogleSymbolUtilities (1.0.0)
+  - GoogleSymbolUtilities (1.0.3)
   - GoogleUtilities (1.1.0):
     - GoogleSymbolUtilities (~> 1.0.0)
-  - SwiftyJSON (2.3.0)
 
 DEPENDENCIES:
-  - Alamofire (>= 2.0.2)
-  - DZNEmptyDataSet (>= 1.7.2)
-  - FBSDKCoreKit (>= 4.6.0)
-  - FBSDKLoginKit (>= 4.6.0)
-  - Firebase (>= 2.4.0)
-  - GeoFire (>= 1.1.2)
-  - Google/Analytics (>= 1.1.0)
-  - GoogleMaps (>= 1.10.3)
-  - GoogleSignIn (>= 2.2.0)
-  - SwiftyJSON (>= 2.3.0)
+  - DZNEmptyDataSet
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Firebase
+  - GeoFire
+  - Google/Analytics
+  - GoogleMaps
+  - GoogleSignIn
 
 SPEC CHECKSUMS:
-  Alamofire: 415bd7f56197722978759078486689f7ef913dce
-  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
   DZNEmptyDataSet: 0ec00bfc230d7450997b60c127afdd0b9f24f3b6
-  FBSDKCoreKit: eb580bfc2040ad44f4c0b4f4d0befb1d35bce59c
-  FBSDKLoginKit: 028c5a205990441123764609fe795e65027c447f
-  Firebase: 5e898ed5012c81d28ca5fae1113c6b61a172bc6d
+  FBSDKCoreKit: 66a935d17b6e00b6b64e604f2eb9b72c9ab7deb8
+  FBSDKLoginKit: d893fcbb98d854496925e9ff73c67b896982d3c4
+  Firebase: 48179995b561e2262c5d4060ecdffca45fbbff8b
   GeoFire: 03db4e390a4cf3ff97422f19eb71ab1aa7d947dd
-  Google: 529a5d8719dff90ea2e7cba5f45302cd359b5456
-  GoogleAnalytics: fcf1f1cad57ae1a9a53520018f0f680ceeeb8b49
+  Google: fd33b5fa40fa3aaee5176de49c873a74e3d11dce
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
   GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
   GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
-  GoogleInterchangeUtilities: fe088bea8c936218e52324a004d279c4491b9d65
-  GoogleMaps: 134bcf57e8d489efbc0c29d532ed421554fabdb2
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleMaps: 272cf7e7b8aacf4319eac47d57f3b7d142c0826a
   GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
-  GoogleSignIn: bfeffe8bbb5f5b377d9cc0d36e97e5f4758cfec4
-  GoogleSymbolUtilities: a7b0feed1fe667c8d5e647177938d0ecd62d6948
+  GoogleSignIn: 79929b51e6299c69f1197bbd9c7a1367d523ecd8
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
   GoogleUtilities: 8ed9134debe11719097881711464752900668f10
-  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
 
 COCOAPODS: 0.39.0

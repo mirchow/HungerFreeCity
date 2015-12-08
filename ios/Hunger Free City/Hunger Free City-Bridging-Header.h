@@ -4,7 +4,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import <GoogleSignIn/GoogleSignIn.h>
 #import <Google/Analytics.h>
-//#import <GeoFire/GeoFire.h>
+#import <GeoFire/GeoFire.h>
 
 
 

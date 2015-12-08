@@ -34,12 +34,16 @@ public class HFCDataProvider {
     // Get nearby Distribution Centers
     func getDistributionCentersNearby() {
         Alamofire.request(.GET, Constants.HFCService.HFCServerUrl, parameters: ["foo": "bar"])
-            .responseJSON(completionHandler: { (request, response, JSON) -> Void in
-                print(request)
-                print(response)
-                print(JSON)
-  
-            })
+            .responseJSON { response in
+                print(response.request)  // original URL request
+                print(response.response) // URL response
+                print(response.data)     // server data
+                print(response.result)   // result of response serialization
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
     }
     
 //    class func getDistributorsDataFromFile(success: ((data: NSData) -> Void)) {

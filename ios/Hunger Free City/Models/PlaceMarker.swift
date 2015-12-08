@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class PlaceMarker: GMSMarker {
     let place: GooglePlace
@@ -18,7 +19,7 @@ class PlaceMarker: GMSMarker {
         position = place.coordinate
         icon = UIImage(named: place.placeType+"_pin")
         groundAnchor = CGPoint(x: 0.5, y: 1)
-        appearAnimation = kGMSMarkerAnimationPop
+        //appearAnimation = kGMSMarkerAnimationPop
     }
     
 }
